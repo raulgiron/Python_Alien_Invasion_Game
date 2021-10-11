@@ -1,7 +1,7 @@
 import pygame.font
 
 
-class Buttom:
+class Button:
     """Create a start button for the Alien Invasion game."""
 
     def __init__(self, ai_game, msg):
