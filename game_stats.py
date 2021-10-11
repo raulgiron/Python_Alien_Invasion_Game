@@ -11,8 +11,10 @@ class GameStats:
 
         # High score should never be reset.
         self.high_score = 0
+        self.prep_level()
 
     def reset_stats(self):
         """Initialize statistics that can change during the fame."""
         self.ships_left = self.settings.ship_limit
         self.score = 0
+        self.level = 1
